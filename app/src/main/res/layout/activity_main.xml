@@ -8,72 +8,72 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/textView4"
-        android:layout_width="224dp"
+        android:id="@+id/etNumero3"
+        android:layout_width="366dp"
         android:layout_height="wrap_content"
-        android:textSize="25sp"
         android:hint="Química"
         android:inputType="numberDecimal"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.484" />
 
     <EditText
-        android:id="@+id/textView3"
-        android:layout_width="224dp"
+        android:id="@+id/etNumero2"
+        android:layout_width="366dp"
         android:layout_height="wrap_content"
-        android:textSize="25sp"
         android:hint="Física"
         android:inputType="numberDecimal"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.39" />
+        app:layout_constraintVertical_bias="0.376" />
 
     <EditText
-        android:id="@+id/textView2"
-        android:layout_width="224dp"
-        android:layout_height="wrap_content"
-        android:textSize="25sp"
+        android:id="@+id/etNumero1"
+        android:layout_width="366dp"
+        android:layout_height="55dp"
         android:hint="Matemáticas"
         android:inputType="numberDecimal"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.271" />
+        app:layout_constraintVertical_bias="0.263" />
 
     <TextView
         android:layout_width="224dp"
         android:layout_height="31dp"
         android:text="Media del Alumno"
-        android:textAppearance="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.164"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.164"
-        android:textSize="25sp"
-        />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="224dp"
-        android:layout_height="31dp"
-        android:text="Nota"
+        android:textStyle="bold"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.645" />
+        app:layout_constraintVertical_bias="0.061" />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="224dp"
+        android:layout_height="31dp"
+        android:hint="Nota"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.152" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnCalcular"
@@ -84,7 +84,7 @@
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.758" />
