@@ -45,6 +45,10 @@ class MainActivity : AppCompatActivity() {
         val media = numero1.add(numero2).add(numero3)
             .divide(BigDecimal("3"), 2, RoundingMode.HALF_UP)
 
-        binding.tvResultado.text = "Media: ${media.stripTrailingZeros().toPlainString()}"
+        if (media >= BigDecimal(5)) {
+            binding.tvResultado.text = "Aprobado con Media de: ${media.stripTrailingZeros().toPlainString()}"
+        } else {
+            binding.tvResultado.text = "Suspendido con Media de: ${media.stripTrailingZeros().toPlainString()}"
+        }
     }
 }
