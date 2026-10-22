@@ -1,3 +1,5 @@
+include(":intentexplicitokotlin")
+
 pluginManagement {
     repositories {
         google {
