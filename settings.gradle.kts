@@ -27,3 +27,5 @@ dependencyResolutionManagement {
 rootProject.name = "PMD"
 include(":app")
 include(":ejemplo2activities")
+include(":intentexplicitokotlin")
+include(":radiogroup-radiobutton")
