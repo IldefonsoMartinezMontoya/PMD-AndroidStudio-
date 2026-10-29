@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/ejemplo2activities" />
             <option value="$PROJECT_DIR$/intentexplicitokotlin" />
+            <option value="$PROJECT_DIR$/radiogroup-radiobutton" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Calculadora de operaciones</string>
+    <string name="titulo">Operaciones</string>
+    <string name="subtitulo">Introduce dos valores y elige qué quieres calcular.</string>
+    <string name="valor_1">Primer valor</string>
+    <string name="valor_2">Segundo valor</string>
+    <string name="elige_operacion">Elige una operación</string>
+    <string name="operacion_suma">Suma</string>
+    <string name="operacion_resta">Resta</string>
+    <string name="operacion_multiplicacion">Multiplicación</string>
+    <string name="operacion_division">División</string>
+    <string name="resultado">Resultado</string>
+    <string name="resultado_vacio">—</string>
+    <string name="estado_inicial">Elige una operación para calcular.</string>
+    <string name="estado_completar_valores">Completa los dos valores con números.</string>
+    <string name="estado_operacion">Operación: %1$s</string>
+    <string name="error_valor_obligatorio">Este valor es obligatorio.</string>
+    <string name="error_numero_invalido">Introduce un número válido.</string>
+    <string name="error_division_cero">No se puede dividir entre cero.</string>
+</resources>
