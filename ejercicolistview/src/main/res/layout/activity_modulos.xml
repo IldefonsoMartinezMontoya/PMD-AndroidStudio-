@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#088576"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:text="EjercicioListView"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/contenidoModulos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <ImageView
+            android:id="@+id/iconoModulo"
+            android:layout_width="112dp"
+            android:layout_height="112dp"
+            android:contentDescription="Icono del ciclo"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/textoModulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textColor="#555555"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/botonVolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="VOLVER"
+            android:textSize="12sp" />
+    </LinearLayout>
+</LinearLayout>
