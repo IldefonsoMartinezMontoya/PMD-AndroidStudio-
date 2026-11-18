@@ -14,10 +14,6 @@
         <option name="selectionMode" value="DROPDOWN" />
         <DialogSelection />
       </SelectionState>
-      <SelectionState runConfigName="agragarcontacto">
-        <option name="selectionMode" value="DROPDOWN" />
-        <DialogSelection />
-      </SelectionState>
       <SelectionState runConfigName="spinner">
         <option name="selectionMode" value="DROPDOWN" />
         <DialogSelection />
@@ -27,6 +23,10 @@
         <DialogSelection />
       </SelectionState>
       <SelectionState runConfigName="ejercicolistview">
+        <option name="selectionMode" value="DROPDOWN" />
+        <DialogSelection />
+      </SelectionState>
+      <SelectionState runConfigName="ejemplonavigation">
         <option name="selectionMode" value="DROPDOWN" />
         <DialogSelection />
       </SelectionState>
