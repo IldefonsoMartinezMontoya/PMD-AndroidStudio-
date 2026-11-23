@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Receta paso a paso</string>
+    <string name="titulo_receta">Gazpacho andaluz</string>
+
+    <!-- Fragmento estático (IngredientesFragment) -->
+    <string name="titulo_ingredientes">Ingredientes (4 personas)</string>
+    <string-array name="ingredientes">
+        <item>1 kg de tomates maduros</item>
+        <item>1 pimiento verde italiano</item>
+        <item>Medio pepino</item>
+        <item>1 diente de ajo</item>
+        <item>50 g de pan del día anterior</item>
+        <item>100 ml de aceite de oliva virgen extra</item>
+        <item>30 ml de vinagre de Jerez</item>
+        <item>Sal</item>
+        <item>Agua fría al gusto</item>
+    </string-array>
+    <!-- Viñeta para cada ingrediente: %1$s es el ingrediente -->
+    <string name="vineta">• %1$s</string>
+
+    <!-- Fragmento inicial del contenedor dinámico (InicioFragment) -->
+    <string name="inicio_titulo">¿Empezamos?</string>
+    <string name="inicio_texto">Prepara los ingredientes y pulsa Siguiente para ver el primer paso.</string>
+
+    <!-- Pasos de la receta (PasoFragment). Cada paso es un elemento del array -->
+    <string-array name="pasos">
+        <item>Pon el pan en remojo con un poco de agua durante unos minutos.</item>
+        <item>Lava los tomates, el pimiento y el pepino. Pela el pepino y el diente de ajo.</item>
+        <item>Trocea las verduras y ponlas en el vaso de la batidora junto con el pan bien escurrido.</item>
+        <item>Tritura hasta conseguir una crema fina. Añade el vinagre y la sal.</item>
+        <item>Sin dejar de batir, añade el aceite poco a poco para que emulsione.</item>
+        <item>Cuela el gazpacho, añade agua fría si está muy espeso y déjalo en la nevera al menos dos horas.</item>
+    </string-array>
+    <!-- Contador de pasos: %1$d es el paso actual y %2$d el número total de pasos -->
+    <string name="contador_pasos">Paso %1$d de %2$d</string>
+
+    <!-- Botones de la Activity -->
+    <string name="anterior">Anterior</string>
+    <string name="siguiente">Siguiente</string>
+
+    <!-- Diálogo final (FinDialog) -->
+    <string name="fin_titulo">¡Receta terminada!</string>
+    <string name="fin_mensaje">Sirve el gazpacho bien frío. Puedes acompañarlo con picadillo de pepino, pimiento y cebolla.</string>
+    <string name="aceptar">Aceptar</string>
+</resources>
